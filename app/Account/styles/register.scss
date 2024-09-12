@@ -1,0 +1,164 @@
+body {
+    font-family: Arial,Microsoft JhengHei;
+    font-size: 1.1em;
+    margin: 0px;
+}
+
+#root {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.btn_back {
+    background: url(/Content/Images/icon_arrowW.svg) no-repeat center;
+    background-size: auto 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40px;
+    cursor: pointer;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+input, select, textarea {
+    font-family: Arial,Microsoft JhengHei;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    font-size: 0.85em;
+}
+
+.bg_header {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1200px;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background: #0f548b url(/Content/Images/bg_header.jpg) repeat-y;
+    background-size: 100% auto;
+    color: #fff;
+}
+
+.bg_header_username {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 40px;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 40px;
+    width: 100%;
+}
+
+.form {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 6.5%;
+}
+
+.input {
+    height: initial;
+    padding: 0;
+    border-top: 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+
+input.ip-lg {
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+}
+
+.login {
+    margin-top: 15px;
+}
+
+.form_T {
+    line-height: 18px;
+    font-size: 0.95em;
+    width: 100%;
+    padding: 0;
+}
+
+.pwON.off .icon_pw {
+    background-image: url(/Content/Images/icon_pwOFF.svg);
+}
+
+.icon_pw {
+    background: url(/Content/Images/icon_pwON.svg) no-repeat center;
+    background-size: auto 25px;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 0;
+    top: 15px;
+}
+
+.btn_register {
+    background: #0f548b url(/Content/Images/bg_header.jpg) repeat-y;
+    background-size: 100% auto;
+    border-radius: 10px;
+    border: none;
+    font-size: 0.95em;
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.term + .term {
+    margin-top: 15px;
+}
+
+.term {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+    .term .btn_confirm.on {
+        border: 0;
+        background: #1589ff url(/Content/images/btn_confirm.svg) no-repeat center;
+        background-size: auto 60%;
+    }
+
+    .term .btn_confirm {
+        border-radius: 100%;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #aaa;
+        box-sizing: border-box;
+        background-color: #fff;
+    }
+
+    .term .termText {
+        font-size: 0.95em;
+        color: #555;
+        margin-left: 10px;
+        width: calc(100% - 30px);
+        line-height: 1.35em;
+    }

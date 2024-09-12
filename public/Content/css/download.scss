@@ -1,0 +1,52 @@
+body {
+    background-image: url('../../content/images/home/download/bg_download.png');
+}
+
+img {
+    width: 100%;
+}
+
+#myTable td {
+    width: 50%;
+}
+
+#div1 {
+    color: #fff;
+    width: 80%;
+    top: 20vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1,
+h2 {
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    #myTable {
+        display: none;
+    }
+    #myTable1 img {
+        margin: 3px 0;
+    }
+    #div1 {
+        top: 5vh;
+    }
+}
+
+/* Tablets and larger devices (landscape) */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #myTable1 {
+        display: none;
+    }
+}
+
+/* Larger devices (desktops, laptops) */
+
+@media screen and (min-width: 1024px) {
+    #myTable1 {
+        display: none;
+    }
+}
