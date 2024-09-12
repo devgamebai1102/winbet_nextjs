@@ -97,7 +97,7 @@ const MainContent = () => {
 
                     {/* Nội dung Game */}
                     <div className="content1" style={{ display: activeContent === 'game' ? 'block' : 'none' }}>
-                        <a className="hcx hcl2 hclgame game3d1" href="#">
+                        <a className="hcx hcl2 hclgame game3d1" href="https://www.mcbet68.com/">
                             <div className="tophcx1 topgame1">
                                 <p>TÀI XỈU 3D - SẢNH A</p>
                                 <img src="/Content/image/logo/logogame.png" alt="Game" />
