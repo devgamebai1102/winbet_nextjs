@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import '../styles/download.css'
+import '../styles/download.scss'
 
 const DownloadSection = () => {
     return (

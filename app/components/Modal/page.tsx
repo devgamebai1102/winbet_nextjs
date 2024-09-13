@@ -25,7 +25,7 @@ const Modal = () => {
     console.log(`Username: ${username}\nPassword: ${password}`);
 
     const response = await axios.post(
-      "https://portal.lin99.club/api/Account/Login",
+      "https://portal.mcbet68.com/api/Account/Login",
       {
         LoginType: 1,
         UserName: username,

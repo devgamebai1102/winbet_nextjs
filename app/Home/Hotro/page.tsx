@@ -2,9 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import '../styles/hotrokhachhang.css';
-import '../styles/styleuudai.css';
-import '../styles/styles.css';
+import '../styles/hotrokhachhang.scss';
+import '../styles/styleuudai.scss';
 
 const Header = () => (
     <div className="header1">

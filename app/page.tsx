@@ -15,17 +15,13 @@ export default function Home() {
     setIsModalOpen(true);
   };
 
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
-
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Header onLoginClick={handleLoginClick} />
       {/* <Banner /> */}
       <MainContent />
       <Footer />
-      {isModalOpen && <Modal closeModal={closeModal} />}
+      {isModalOpen && <Modal />}
     </Suspense>
   );
 }

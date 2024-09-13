@@ -36,7 +36,7 @@ export default function RegisterForm() {
       setIsSubmitting(true);
       try {
         const response = await axios.post(
-          "https://portal.lin99.club/api/Account/CreateAccount",
+          "https://portal.mcbet68.com/api/Account/CreateAccount",
           {
             LoginType: 1,
             UserName: name,
@@ -63,14 +63,14 @@ export default function RegisterForm() {
     }
   };
 
-  const togglePasswordVisibility = (id: string) => {
-    const passwordField = document.getElementById(id) as HTMLInputElement;
-    if (passwordField.type === "password") {
-      passwordField.type = "text";
-    } else {
-      passwordField.type = "password";
-    }
-  };
+  // const togglePasswordVisibility = (id: string) => {
+  //   const passwordField = document.getElementById(id) as HTMLInputElement;
+  //   if (passwordField.type === "password") {
+  //     passwordField.type = "text";
+  //   } else {
+  //     passwordField.type = "password";
+  //   }
+  // };
 
   return (
     <div className="App">
